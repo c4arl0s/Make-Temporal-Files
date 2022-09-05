@@ -1,6 +1,3 @@
-# Make-Temporal-Files
-
-```bash
 function makeTemp() {
     [ -n $TMP ] || TMP='/tmp'
 
@@ -34,5 +31,4 @@ function makeTemp() {
         echo "$TEMP_NAME"
     fi
 }
-```
 
